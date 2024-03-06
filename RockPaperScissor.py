@@ -1,7 +1,5 @@
 import random
 
-# choice = input("Enter 'rock' , 'paper' or 'scissors': ").lower()
-
 def user_input():
     choice = input("Enter 'rock' , 'paper' or 'scissors': ").lower()
     while choice not in ['rock','paper','scissors']:
